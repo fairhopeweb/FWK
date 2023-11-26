@@ -887,6 +887,7 @@ if "!demos!"=="yes" (
 !echo! 99-pathfind   && !cc! !o! 99-pathfind.exe    demos\99-pathfind.c     !import! !args! || set rc=1
 !echo! 99-sponza     && !cc! !o! 99-sponza.exe      demos\99-sponza.c       !import! !args! || set rc=1
 !echo! 99-gui        && !cc! !o! 99-gui.exe         demos\99-gui.c          !import! !args! || set rc=1
+!echo! 99-lmap       && !cc! !o! 99-lmap.exe        demos\99-lmap.c         !import! !args! || set rc=1
 )
 
 rem hello
